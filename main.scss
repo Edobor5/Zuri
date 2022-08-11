@@ -64,14 +64,14 @@ body {
             margin: auto;
             justify-content: center;
             align-items: center;
+            font-size: 16px;
 
             .main-button {
-                background-color: rgba(243, 56, 56, 0.945);
-                color: rgba(255, 255, 255, 0.925);
+                background-color: #e7332b;
+                color: white;
                 margin: 10px;
                 text-align: center;
                 padding: 15px;
-                font-size: larger;
                 cursor: pointer;
                 width: fit-content;
                 text-decoration: none;
@@ -79,7 +79,7 @@ body {
 
                 &:hover {
                     background-color: white;
-                    color: rgb(245, 50, 50);
+                    color: #e7332b;;
                 }
             }
             .second-button {
@@ -88,12 +88,15 @@ body {
                 margin: 10px;
                 text-decoration: none;
                 padding: 15px;
-                font-size: large;
                 cursor: pointer;
                 width: fit-content;
-                color: rgba(219, 21, 21, 0.945);
+                color: #e7332b;
                 background-color: white;
                 border-color: rgba(207, 36, 36, 0.945);
+                &:hover{
+                    background-color: #e7332b;
+                    color: white;
+                }
         }
 
     }

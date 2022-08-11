@@ -53,14 +53,14 @@ body .top-body .join {
   margin: auto;
   justify-content: center;
   align-items: center;
+  font-size: 16px;
 }
 body .top-body .join .main-button {
-  background-color: rgba(243, 56, 56, 0.945);
-  color: rgba(255, 255, 255, 0.925);
+  background-color: #e7332b;
+  color: white;
   margin: 10px;
   text-align: center;
   padding: 15px;
-  font-size: larger;
   cursor: pointer;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -70,7 +70,7 @@ body .top-body .join .main-button {
 }
 body .top-body .join .main-button:hover {
   background-color: white;
-  color: rgb(245, 50, 50);
+  color: #e7332b;
 }
 body .top-body .join .second-button {
   border: 1px solid rgb(238, 41, 41);
@@ -78,14 +78,17 @@ body .top-body .join .second-button {
   margin: 10px;
   text-decoration: none;
   padding: 15px;
-  font-size: large;
   cursor: pointer;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: rgba(219, 21, 21, 0.945);
+  color: #e7332b;
   background-color: white;
   border-color: rgba(207, 36, 36, 0.945);
+}
+body .top-body .join .second-button:hover {
+  background-color: #e7332b;
+  color: white;
 }
 body .main-div {
   display: flex;
