@@ -1,242 +1,204 @@
 @font-face {
-    font-family: Averta;
-    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECutedDemo-Regular_dghpn7.oft);
+  font-family: "Averta";
+  src: url(./resources/AvertaDemo-Regular.otf);
 }
-
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-    font-family: Averta,sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Averta", sans-serif;
 }
 
 body {
   margin: 10px;
   padding: 40px;
   text-align: center;
-  background-image: url(https://zuri.team/img/hero-bg.svg) ;
-   background-repeat: no-repeat;
-   
-    /* width: 70%; */
-    /* height: 90vh; */
-    background-size:cover ;
-    background-attachment: fixed;
-    place-items: center;
-    background-position:center center ;
-    font-size: 1rem;
-    font-weight: 400; 
+  background-image: url(https://zuri.team/img/hero-bg.svg);
+  background-repeat: no-repeat;
+  /* width: 70%; */
+  /* height: 90vh; */
+  background-size: cover;
+  background-attachment: fixed;
+  place-items: center;
+  background-position: center center;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
-.main-p span{
-    color: red;
-}
-img{
-    
-   padding-right: 20px;   
+.main-p span {
+  color: red;
 }
 
-    
-.main-div{
-    display: flex;
-    padding: 50px;
-    
-}
-.container{
-background-color: white;
-padding-bottom: 100px;
- 
-}
-.training{
-    width: 150px;
-    height: 150px;
-}
-.first-div{
-    background-color: rgb(241, 216, 225);
-    padding: 40px;
-   align-self: stretch;
-    margin: 20px;
-    padding-bottom: 50px;
-    text-align: left;
-    opacity: 0.7;
-   
-}
-  .first-div a{
-    text-decoration: none;
-    color: red;
-    
-  }  
-.first-div p{
-font-weight: 700px;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: left;
-    margin-bottom: 30px;
-
+img {
+  padding-right: 20px;
 }
 
-h3 span{
-    color: rgb(221, 40, 40);
-}
-.zuri-class{
-    padding: 20px;
-}
-p span{
-    color: red;
-}
-.second-li a{
-    text-decoration: none;
-    color: red;
-    
+.main-div {
+  display: flex;
+  padding: 50px;
 }
 
-.second-div{
-    background-color: rgb(241, 216, 225);
-    padding: 40px;
-   align-self: stretch;
-    margin: 20px;
-    padding-bottom: 50px;
-     text-align: left;
-    opacity: 0.7;
-}
-  .second-div a{
-    text-decoration: none;
-    color: red;
-    
-  }  
-.second-div p{
-font-weight: 700px;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: left;
-    margin-bottom: 30px;
-
-}
-.third-div{
-    background-color: rgb(241, 216, 225);
-    padding: 40px;
-    align-self: stretch;
-    margin: 20px;
-    padding-bottom: 50px;
-    text-align: left;
-    opacity: 0.7;
-}
-  .third-div a{
-    text-decoration: none;
-    color: red;
-    
-  }  
-.third-div p{
-font-weight: 700px;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: left;
-    margin-bottom: 30px;
-
+.container {
+  background-color: white;
+  padding-bottom: 100px;
 }
 
-section{
-    display: block;
-    padding: 70px;
+.training {
+  width: 150px;
+  height: 150px;
 }
-.main-p{
-    margin-top: 40px;
-    font-size: medium;
-    line-height: 25px;
-    text-align: center;
-    
-  
+
+.first-div {
+  background-color: rgb(241, 216, 225);
+  padding: 40px;
+  align-self: stretch;
+  margin: 20px;
+  padding-bottom: 50px;
+  text-align: left;
+  opacity: 0.7;
 }
-.top-div{
-    padding: 20px;
-    line-height: 25px;
-    margin-top: 200px;
+.first-div a {
+  text-decoration: none;
+  color: red;
 }
-.top-div span{
-    color: red;
+.first-div p {
+  font-weight: 700px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: left;
+  margin-bottom: 30px;
 }
-.main-button{
-background-color: rgba(243, 56, 56, 0.945);
-color: rgba(255, 255, 255, 0.925);
-margin: 10px;
- text-align: center;
+
+h3 span {
+  color: rgb(221, 40, 40);
+}
+
+.zuri-class {
+  padding: 20px;
+}
+
+p span {
+  color: red;
+}
+
+.second-li a {
+  text-decoration: none;
+  color: red;
+}
+
+.second-div, .third-div {
+  background-color: rgb(241, 216, 225);
+  padding: 40px;
+  align-self: stretch;
+  margin: 20px;
+  padding-bottom: 50px;
+  text-align: left;
+  opacity: 0.7;
+}
+.second-div a, .third-div a {
+  text-decoration: none;
+  color: red;
+}
+.second-div p, .third-div p {
+  font-weight: 700px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+section {
+  display: block;
+  padding: 70px;
+}
+
+.main-p {
+  margin-top: 40px;
+  font-size: medium;
+  line-height: 25px;
+  text-align: center;
+}
+
+.top-div {
+  padding: 20px;
+  line-height: 25px;
+  margin-top: 200px;
+}
+.top-div span {
+  color: red;
+}
+
+.main-button {
+  background-color: rgba(243, 56, 56, 0.945);
+  color: rgba(255, 255, 255, 0.925);
+  margin: 10px;
+  text-align: center;
   padding: 15px;
   font-size: larger;
-
   cursor: pointer;
-    width: 20%;
-    border:1px solid rgb(238, 41, 41);
+  width: 20%;
+  border: 1px solid rgb(238, 41, 41);
+}
+.main-button:hover {
+  background-color: white;
+  color: rgb(245, 50, 50);
+}
 
-}
-.main-button:hover{
-   background-color:white ; 
-   color:rgb(245, 50, 50);
-}
-.second-button{
-     border:1px solid rgb(238, 41, 41);
-    text-align: center;
-    margin: 10px;
+.second-button {
+  border: 1px solid rgb(238, 41, 41);
+  text-align: center;
+  margin: 10px;
   padding: 15px;
   font-size: large;
-
   cursor: pointer;
-    width: 20%;
-    color: rgba(219, 21, 21, 0.945);
-background-color: white;
-border-color:rgba(207, 36, 36, 0.945);
+  width: 20%;
+  color: rgba(219, 21, 21, 0.945);
+  background-color: white;
+  border-color: rgba(207, 36, 36, 0.945);
+}
+.second-button:hover {
+  color: white;
+  background-color: rgb(245, 50, 50);
 }
 
-.second-button:hover{
-   color:white ; 
-   background-color:rgb(245, 50, 50);
+.fifth-div {
+  padding: 20px;
 }
-  
-.fifth-div{
-    padding: 20px;
+.fifth-div img {
+  width: 100px;
+  height: 100px;
 }
-.fifth-div img{
-    width: 100px;
-    height: 100px;
+
+.first-li, .second-li, .last-div {
+  display: block;
 }
-.first-li{
-    display: block;
-   
+
+.social-images {
+  display: flex;
+  gap: 10px;
 }
-.second-li{
-    display: block;
-    }
-   
-.last-div{
-    display: block;
-      
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.social-images{
-    display: flex;
-    gap: 10px;
+.footer h3 {
+  padding-bottom: 20px;
 }
-.footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.last-p {
+  display: block;
 }
-.footer h3{
-    padding-bottom: 20px;
+
+.copy-footer {
+  margin: 40px auto 100px auto;
+  font-weight: bold;
+  text-decoration: none;
 }
-.last-p{
-    display: block;
-}
-.copy-footer{
-    margin: 40px auto 100px auto;
-    font-weight: bold;
-    text-decoration: none;
-}
-.social-images img{
-    width: 40px;
-    height: 30px;
-    cursor: pointer;
-}
-    
-@media screen, and (max-width:1400px) and(min-width:992px){
-    body{
-        margin: 0;
-    }
-    }
+
+.social-images img {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
