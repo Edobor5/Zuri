@@ -7,17 +7,20 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Averta", sans-serif;
+  position: relative;
 }
 
+body {
+  width: 100%;
+  background-image: url(https://zuri.team/img/hero-bg.svg);
+  background-repeat: no-repeat;
+}
 body .top-body {
   margin: 40px;
   margin-top: 5%;
   text-align: center;
-  background-image: url(https://zuri.team/img/hero-bg.svg);
-  background-repeat: no-repeat;
   height: 110vh;
-  background-size: cover;
-  background-position: center center;
+  width: 90%;
 }
 body .top-body img {
   margin: auto;
@@ -37,96 +40,21 @@ body .top-body .sect .main-p {
   margin: 0 auto 2%;
   color: #514949;
   font-size: 16px;
+  width: 57%;
+  text-align: center;
   line-height: 1.5;
 }
 body .top-body .sect .main-p span {
   color: #eb5850;
 }
-
-.main-div {
+body .top-body .join {
   display: flex;
-  padding: 50px;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
-
-.container {
-  background-color: white;
-  padding-bottom: 100px;
-}
-
-.training {
-  width: 150px;
-  height: 150px;
-}
-
-.first-div {
-  background-color: rgb(241, 216, 225);
-  padding: 40px;
-  align-self: stretch;
-  margin: 20px;
-  padding-bottom: 50px;
-  text-align: left;
-  opacity: 0.7;
-}
-.first-div a {
-  text-decoration: none;
-  color: red;
-}
-.first-div p {
-  font-weight: 700px;
-  font-size: 15px;
-  line-height: 25px;
-  text-align: left;
-  margin-bottom: 30px;
-}
-
-h3 span {
-  color: rgb(221, 40, 40);
-}
-
-.zuri-class {
-  padding: 20px;
-}
-
-p span {
-  color: red;
-}
-
-.second-li a {
-  text-decoration: none;
-  color: red;
-}
-
-.second-div, .third-div {
-  background-color: rgb(241, 216, 225);
-  padding: 40px;
-  align-self: stretch;
-  margin: 20px;
-  padding-bottom: 50px;
-  text-align: left;
-  opacity: 0.7;
-}
-.second-div a, .third-div a {
-  text-decoration: none;
-  color: red;
-}
-.second-div p, .third-div p {
-  font-weight: 700px;
-  font-size: 15px;
-  line-height: 25px;
-  text-align: left;
-  margin-bottom: 30px;
-}
-
-.top-div {
-  padding: 20px;
-  line-height: 25px;
-  margin-top: 200px;
-}
-.top-div span {
-  color: red;
-}
-
-.main-button {
+body .top-body .join .main-button {
   background-color: rgba(243, 56, 56, 0.945);
   color: rgba(255, 255, 255, 0.925);
   margin: 10px;
@@ -134,27 +62,108 @@ p span {
   padding: 15px;
   font-size: larger;
   cursor: pointer;
-  width: 20%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-decoration: none;
   border: 1px solid rgb(238, 41, 41);
 }
-.main-button:hover {
+body .top-body .join .main-button:hover {
   background-color: white;
   color: rgb(245, 50, 50);
 }
-
-.second-button {
+body .top-body .join .second-button {
   border: 1px solid rgb(238, 41, 41);
   text-align: center;
   margin: 10px;
+  text-decoration: none;
   padding: 15px;
   font-size: large;
   cursor: pointer;
-  width: 20%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   color: rgba(219, 21, 21, 0.945);
   background-color: white;
   border-color: rgba(207, 36, 36, 0.945);
 }
-.second-button:hover {
+body .main-div {
+  display: flex;
+  padding: 50px;
+}
+body .container {
+  background-color: white;
+  padding-bottom: 100px;
+}
+body .training {
+  width: 150px;
+  height: 150px;
+}
+body .first-div {
+  background-color: rgb(241, 216, 225);
+  padding: 40px;
+  align-self: stretch;
+  margin: 20px;
+  padding-bottom: 50px;
+  text-align: left;
+  opacity: 0.7;
+}
+body .first-div a {
+  text-decoration: none;
+  color: red;
+}
+body .first-div p {
+  font-weight: 700px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+body h3 span {
+  color: rgb(221, 40, 40);
+}
+body .zuri-class {
+  padding: 20px;
+}
+body p span {
+  color: red;
+}
+body .second-li a {
+  text-decoration: none;
+  color: red;
+}
+body .second-div,
+body .third-div {
+  background-color: rgb(241, 216, 225);
+  padding: 40px;
+  align-self: stretch;
+  margin: 20px;
+  padding-bottom: 50px;
+  text-align: left;
+  opacity: 0.7;
+}
+body .second-div a,
+body .third-div a {
+  text-decoration: none;
+  color: red;
+}
+body .second-div p,
+body .third-div p {
+  font-weight: 700px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+body .top-div {
+  padding: 20px;
+  line-height: 25px;
+  margin-top: 200px;
+}
+body .top-div span {
+  color: red;
+}
+body:hover {
   color: white;
   background-color: rgb(245, 50, 50);
 }
@@ -167,7 +176,9 @@ p span {
   height: 100px;
 }
 
-.first-li, .second-li, .last-div {
+.first-li,
+.second-li,
+.last-div {
   display: block;
 }
 
