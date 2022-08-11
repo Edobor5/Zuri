@@ -9,28 +9,38 @@
   font-family: "Averta", sans-serif;
 }
 
-body {
-  margin: 10px;
-  padding: 40px;
+body .top-body {
+  margin: 40px;
+  margin-top: 5%;
   text-align: center;
   background-image: url(https://zuri.team/img/hero-bg.svg);
   background-repeat: no-repeat;
-  /* width: 70%; */
-  /* height: 90vh; */
+  height: 110vh;
   background-size: cover;
-  background-attachment: fixed;
-  place-items: center;
   background-position: center center;
-  font-size: 1rem;
-  font-weight: 400;
 }
-
-.main-p span {
-  color: red;
+body .top-body img {
+  margin: auto;
 }
-
-img {
-  padding-right: 20px;
+body .top-body .sect {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+body .top-body .sect h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #514949;
+  margin: 5% auto;
+}
+body .top-body .sect .main-p {
+  margin: 0 auto 2%;
+  color: #514949;
+  font-size: 16px;
+  line-height: 1.5;
+}
+body .top-body .sect .main-p span {
+  color: #eb5850;
 }
 
 .main-div {
@@ -105,18 +115,6 @@ p span {
   line-height: 25px;
   text-align: left;
   margin-bottom: 30px;
-}
-
-section {
-  display: block;
-  padding: 70px;
-}
-
-.main-p {
-  margin-top: 40px;
-  font-size: medium;
-  line-height: 25px;
-  text-align: center;
 }
 
 .top-div {
