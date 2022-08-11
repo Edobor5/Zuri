@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    padding-right: 70px;
+    margin-left: 20px;
+  }
+  
+  .main-div {
+    display: flex;
+  }
+  
+  .img-div img {
+    height: 400px;
+  }
+  
+  .first-div {
+    padding: 70px;
+    font-size: larger;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    line-height: 25px;
+  }
+  
+  .second-div img {
+    height: 400px;
+    padding-left: 200px;
+  }
