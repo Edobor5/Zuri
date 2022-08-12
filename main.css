@@ -118,24 +118,28 @@ body .container .top-div .zuri-class {
   text-align: center;
   line-height: 1.5;
 }
-body .training {
-  width: 150px;
+body .main-div {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+body .main-div .div {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  background-color: #fffafa;
+  margin: 20px;
+  text-align: left;
+}
+body .main-div .div .training {
+  width: 120px;
   height: 150px;
 }
-body .first-div {
-  background-color: rgb(241, 216, 225);
-  padding: 40px;
-  align-self: stretch;
-  margin: 20px;
-  padding-bottom: 50px;
-  text-align: left;
-  opacity: 0.7;
-}
-body .first-div a {
+body .main-div .div a {
   text-decoration: none;
   color: red;
 }
-body .first-div p {
+body .main-div .div p {
   font-weight: 700px;
   font-size: 15px;
   line-height: 25px;
