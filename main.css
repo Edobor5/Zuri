@@ -19,7 +19,7 @@ body .top-body {
   margin: 40px;
   margin-top: 5%;
   text-align: center;
-  height: 110vh;
+  height: 100vh;
   width: 90%;
 }
 body .top-body img {
@@ -90,13 +90,33 @@ body .top-body .join .second-button:hover {
   background-color: #e7332b;
   color: white;
 }
-body .main-div {
-  display: flex;
-  padding: 50px;
-}
 body .container {
   background-color: white;
   padding-bottom: 100px;
+  width: 100%;
+  margin: 0 auto;
+}
+body .container .top-div {
+  margin: auto;
+  width: 80%;
+}
+body .container .top-div h3 {
+  color: #e7332b;
+  font-size: 14px;
+  font-weight: 500;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+body .container .top-div .zuri-class {
+  color: #514949;
+  font-size: 24px;
+  font-weight: 400;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  line-height: 1.5;
 }
 body .training {
   width: 150px;
@@ -124,9 +144,6 @@ body .first-div p {
 }
 body h3 span {
   color: rgb(221, 40, 40);
-}
-body .zuri-class {
-  padding: 20px;
 }
 body p span {
   color: red;
@@ -165,10 +182,6 @@ body .top-div {
 }
 body .top-div span {
   color: red;
-}
-body:hover {
-  color: white;
-  background-color: rgb(245, 50, 50);
 }
 
 .fifth-div {
