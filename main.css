@@ -15,28 +15,29 @@ body {
   background-image: url(https://zuri.team/img/hero-bg.svg);
   background-repeat: no-repeat;
 }
-body .top-body {
+
+.top-body {
   margin: 40px;
   margin-top: 5%;
   text-align: center;
   height: 100vh;
   width: 90%;
 }
-body .top-body img {
+.top-body img {
   margin: auto;
 }
-body .top-body .sect {
+.top-body .sect {
   display: flex;
   flex-direction: column;
   margin-top: 15px;
 }
-body .top-body .sect h2 {
+.top-body .sect h2 {
   font-size: 32px;
   font-weight: 800;
   color: #514949;
   margin: 5% auto;
 }
-body .top-body .sect .main-p {
+.top-body .sect .main-p {
   margin: 0 auto 2%;
   color: #514949;
   font-size: 16px;
@@ -44,10 +45,10 @@ body .top-body .sect .main-p {
   text-align: center;
   line-height: 1.5;
 }
-body .top-body .sect .main-p span {
+.top-body .sect .main-p span {
   color: #eb5850;
 }
-body .top-body .join {
+.top-body .join {
   display: flex;
   width: 60%;
   margin: auto;
@@ -55,7 +56,7 @@ body .top-body .join {
   align-items: center;
   font-size: 16px;
 }
-body .top-body .join .main-button {
+.top-body .join .main-button {
   background-color: #e7332b;
   color: white;
   margin: 10px;
@@ -68,11 +69,11 @@ body .top-body .join .main-button {
   text-decoration: none;
   border: 1px solid rgb(238, 41, 41);
 }
-body .top-body .join .main-button:hover {
+.top-body .join .main-button:hover {
   background-color: white;
   color: #e7332b;
 }
-body .top-body .join .second-button {
+.top-body .join .second-button {
   border: 1px solid rgb(238, 41, 41);
   text-align: center;
   margin: 10px;
@@ -86,21 +87,22 @@ body .top-body .join .second-button {
   background-color: white;
   border-color: rgba(207, 36, 36, 0.945);
 }
-body .top-body .join .second-button:hover {
+.top-body .join .second-button:hover {
   background-color: #e7332b;
   color: white;
 }
-body .container {
+
+.container {
   background-color: white;
   padding-bottom: 100px;
   width: 100%;
   margin: 0 auto;
 }
-body .container .top-div {
+.container .top-div {
   margin: auto;
   width: 80%;
 }
-body .container .top-div h3 {
+.container .top-div h3 {
   color: #e7332b;
   font-size: 14px;
   font-weight: 500;
@@ -109,7 +111,7 @@ body .container .top-div h3 {
   width: fit-content;
   margin: auto;
 }
-body .container .top-div .zuri-class {
+.container .top-div .zuri-class {
   color: #514949;
   font-size: 24px;
   font-weight: 400;
@@ -118,116 +120,71 @@ body .container .top-div .zuri-class {
   text-align: center;
   line-height: 1.5;
 }
-body .main-div {
+
+.main-div {
   display: flex;
   width: 90%;
   margin: 0 auto;
 }
-body .main-div .div {
+.main-div .div {
   display: flex;
   padding: 20px;
   flex-direction: column;
   background-color: #fffafa;
   margin: 20px;
   text-align: left;
+  color: #514949;
 }
-body .main-div .div .training {
+.main-div .div .training {
   width: 120px;
   height: 150px;
 }
-body .main-div .div a {
+.main-div .div a {
   text-decoration: none;
   color: red;
 }
-body .main-div .div p {
+.main-div .div p {
   font-weight: 700px;
   font-size: 15px;
   line-height: 25px;
   text-align: left;
   margin-bottom: 30px;
-}
-body h3 span {
-  color: rgb(221, 40, 40);
-}
-body p span {
-  color: red;
-}
-body .second-li a {
-  text-decoration: none;
-  color: red;
-}
-body .second-div,
-body .third-div {
-  background-color: rgb(241, 216, 225);
-  padding: 40px;
-  align-self: stretch;
-  margin: 20px;
-  padding-bottom: 50px;
-  text-align: left;
-  opacity: 0.7;
-}
-body .second-div a,
-body .third-div a {
-  text-decoration: none;
-  color: red;
-}
-body .second-div p,
-body .third-div p {
-  font-weight: 700px;
-  font-size: 15px;
-  line-height: 25px;
-  text-align: left;
-  margin-bottom: 30px;
-}
-body .top-div {
-  padding: 20px;
-  line-height: 25px;
-  margin-top: 200px;
-}
-body .top-div span {
-  color: red;
-}
-
-.fifth-div {
-  padding: 20px;
-}
-.fifth-div img {
-  width: 100px;
-  height: 100px;
-}
-
-.first-li,
-.second-li,
-.last-div {
-  display: block;
-}
-
-.social-images {
-  display: flex;
-  gap: 10px;
 }
 
 .footer {
+  width: 90%;
+  margin: 10% auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 5%;
+  border: 2px solid rgb(207, 207, 207);
 }
-.footer h3 {
-  padding-bottom: 20px;
+.footer .f-div {
+  align-self: flex-start;
+  margin-top: 10px;
 }
-
-.last-p {
-  display: block;
+.footer .f-div img {
+  width: 120px;
 }
-
-.copy-footer {
-  margin: 40px auto 100px auto;
-  font-weight: bold;
+.footer .first-li {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-between;
+}
+.footer .first-li h3 {
+  color: #514949;
+  font-size: 16px;
+}
+.footer .first-li .link {
+  display: flex;
+  font-size: 16px;
+  flex-direction: column;
+  height: 60px;
+  justify-content: inherit;
+}
+.footer .first-li .link a {
   text-decoration: none;
-}
-
-.social-images img {
-  width: 40px;
-  height: 30px;
-  cursor: pointer;
+  color: #eb5850;
 }/*# sourceMappingURL=main.css.map */
