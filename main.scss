@@ -182,35 +182,74 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 5%;
-    border: 2px solid rgb(207, 207, 207);
-    .f-div{
-        align-self:flex-start;
+    border-bottom: 2px solid rgb(207, 207, 207);
+
+    .f-div {
+        align-self: flex-start;
         margin-top: 10px;
-        img{
+
+        img {
             width: 120px;
         }
     }
 
-    .first-li{
+    .first-li {
         display: flex;
         flex-direction: column;
         height: 100px;
         justify-content: space-between;
-        h3{
+
+        h3 {
             color: #514949;
             font-size: 16px;
         }
-        .link{
+
+        .link {
             display: flex;
             font-size: 16px;
             flex-direction: column;
             height: 60px;
             justify-content: inherit;
-            a{
+
+            a {
                 text-decoration: none;
                 color: #eb5850;
             }
-         
+
+        }
+    }
+
+    .second-li {
+        @extend .first-li;
+
+        p {
+            color: #514949;
+            font-size: 14px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #eb5850;
+            font-size: 14px;
+        }
+    }
+
+    .last-div {
+        @extend .first-li;
+        height: fit-content;
+        align-self: flex-start;
+
+        .social-images {
+            margin-top: 10px;
+            align-self: flex-start;
+            display: flex;
+            justify-content: space-around;
+            width: 120px;
+            a {
+                img {
+                    width: 20px;
+                }
+            }
         }
     }
 }
