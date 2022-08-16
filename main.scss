@@ -44,14 +44,20 @@ body {
             margin: 0 auto;
             color: #514949;
             font-size: 16px;
-            width: 700px;
+            width:90%;
             text-align: center;
             margin-bottom:5%;
+            
+            p{
+                width: 60%;
+                margin: auto;
+            
 
             a {
                 color: #eb5850;
                 text-decoration: none;
             }
+        }
 
             line-height: 1.5;
         }
@@ -298,5 +304,17 @@ footer{
             align-self: center;
         }
         
+    }
+}
+
+@media (max-width:700px){
+    .top-body{
+        .sect{
+            .main-p{
+                p{
+                    width: 90%;
+                }
+            }
+        }
     }
 }
