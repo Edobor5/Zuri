@@ -18,11 +18,11 @@ body {
 }
 
 .top-body {
-    margin: 40px;
+    margin: 40px auto;
     margin-top: 5%;
     text-align: center;
     height: 100vh;
-    width: 90%;
+    width: 100%;
 
     img {
         margin: auto;
@@ -41,14 +41,16 @@ body {
         }
 
         .main-p {
-            margin: 0 auto 2%;
+            margin: 0 auto;
             color: #514949;
             font-size: 16px;
-            width: 57%;
+            width: 700px;
             text-align: center;
+            margin-bottom:5%;
 
-            span {
+            a {
                 color: #eb5850;
+                text-decoration: none;
             }
 
             line-height: 1.5;
@@ -58,6 +60,7 @@ body {
 
     .join {
         display: flex;
+        flex-wrap: wrap;
         width: 60%;
         margin: auto;
         justify-content: center;
@@ -71,7 +74,7 @@ body {
             text-align: center;
             padding: 15px;
             cursor: pointer;
-            width: fit-content;
+            width: 220px;
             text-decoration: none;
             border: 1px solid rgb(238, 41, 41);
 
@@ -113,7 +116,7 @@ body {
 
     .top-div {
         margin: auto;
-        width: 80%;
+        width: 90%;
 
         h3 {
             color: #e7332b;
@@ -127,10 +130,14 @@ body {
             color: #514949;
             font-size: 24px;
             font-weight: 400;
-            width: 40%;
+            width: 100%;
             margin: auto;
             text-align: center;
-            line-height: 1.5;
+            line-height: 1.6;
+            p{
+                width: 95%;
+                margin: auto;
+            }
         }
 
     }
@@ -160,7 +167,7 @@ body {
 
         a {
             text-decoration: none;
-            color: red;
+            color: #e7332b;
         }
 
         p {
@@ -189,7 +196,7 @@ body {
         margin-top: 10px;
 
         img {
-            width: 120px;
+            width: 150px;
         }
     }
 
@@ -221,6 +228,7 @@ body {
 
     .second-li {
         @extend .first-li;
+        line-height: 1.49;
 
         p {
             color: #514949;
@@ -260,4 +268,35 @@ footer{
     color: #514949;
     font-size: 16px;
     font-weight: 700;
+}
+
+
+@media (max-width:769px){
+    .main-div{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+        .f-div{
+            align-self: center;
+            margin-bottom: 30px;
+        }
+        .first-li{
+            margin-bottom: 20px;
+            align-items: center;
+            h3{
+                font-size: 24px;
+            }
+
+        }
+        .second-li{
+            @extend .first-li;
+            text-align: center;
+        }
+        .last-div{
+            @extend .first-li;
+            align-self: center;
+        }
+        
+    }
 }
